@@ -52,3 +52,6 @@ app.use('/auth', authRoutes);
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
+
+// Export Express app as AP 
+module.exports = app;
